@@ -1,0 +1,26 @@
+/* Center
+___________________________________________*/
+
+@mixin flexCenter {align-items: center; justify-content: center;}
+@mixin blockCenter {margin: 0% auto;}
+
+/* Fonts
+___________________________________________*/
+// Montserrat: 400, 500, 600
+// Playfair Display: 700
+@mixin fMontserrat400 {font-family: 'Montserrat', sans-serif; font-weight: 400;}
+@mixin fMontserrat500 {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+@mixin fMontserrat600 {font-family: 'Montserrat', sans-serif; font-weight: 600;}
+
+@mixin fPlayfairDisplay700 {font-family: 'Playfair Display', serif; font-weight: 700;}
+
+/* Animation
+___________________________________________*/
+
+@mixin active {transform: translate(0, 100%); opacity: 0; transition: 1s ease 0s;}
+@mixin activeLeft {transform: translate(60%, 0); opacity: 0; transition: 1s ease 0s;}
+@mixin activeRight {transform: translate(-60%, 0); opacity: 0; transition: 1s ease 0s;}
+
+@mixin passive {transform: translate(0, 0); opacity: 1;}
+
+@mixin tra5 {transition: .5s linear;}
